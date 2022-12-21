@@ -1,0 +1,63 @@
+.tabs {
+   font-size: 0;
+}
+
+.tabs>input[type="radio"] {
+   display: none;
+}
+
+.tabs>div {
+   display: none;
+   border: 1px solid #0a0a0a;
+   padding: 10px 15px;
+   font-size: 16px;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+   display: block;
+}
+
+.tabs>label {
+   display: inline-block;
+   text-align: center;
+   user-select: none;
+   background-color: #ffffff;
+   border: 1px solid hsla(0, 0%, 0%, 0.979);
+   padding: 2px 8px;
+   font-size: 16px;
+   position: relative;
+   top: 1px;
+}
+
+.tabs>input[type="radio"]:checked+label {
+   background-color: rgb(255, 255, 255);
+   border-bottom: 1px solid #fff;
+}
+
+body {
+   background-color: rgb(255, 255, 255)
+}
+
+p {
+   font-size: 16px;
+   font-family: monospace;
+}
+
+#colored {
+   background-color: rgb(234, 243, 150);
+}
+
+.floatl {
+   float: left;
+}
+
+.floatr {
+   float: right;
+}
+
+img {
+   margin-left: 10px;
+   margin-right: 10px;
+}
